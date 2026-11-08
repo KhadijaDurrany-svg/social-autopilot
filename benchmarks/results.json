@@ -1,0 +1,68 @@
+{
+  "comparisons": [
+    {
+      "baseline": "greedy",
+      "gain_ci_hi": 0.07617968035214895,
+      "gain_ci_lo": 0.05687779424316223,
+      "mean_efficiency_gain": 0.06645376740564483,
+      "p_value": 4.999750012499375e-05,
+      "win_rate": 0.83
+    },
+    {
+      "baseline": "fixed_time",
+      "gain_ci_hi": 0.2265173269605444,
+      "gain_ci_lo": 0.20311887919442018,
+      "mean_efficiency_gain": 0.214625925844713,
+      "p_value": 4.999750012499375e-05,
+      "win_rate": 1.0
+    },
+    {
+      "baseline": "random",
+      "gain_ci_hi": 0.3150673454712324,
+      "gain_ci_lo": 0.29370020380164236,
+      "mean_efficiency_gain": 0.30437385343302453,
+      "p_value": 4.999750012499375e-05,
+      "win_rate": 1.0
+    }
+  ],
+  "config": {
+    "days": 7,
+    "n_boot": 10000,
+    "n_perm": 20000,
+    "n_scenarios": 200,
+    "seed": 20260101,
+    "sigma": 0.45,
+    "slots_per_day": 24
+  },
+  "dataset_checksum": "fb5c8ae5361661bc83e186ee7ac933ab679f320098cc80f272d5dd9381ec8741",
+  "strategies": [
+    {
+      "ci_hi": 0.6455712279805054,
+      "ci_lo": 0.6304470736029976,
+      "mean_efficiency": 0.6378975883499399,
+      "mean_score": 24.16506657296791,
+      "strategy": "slotwise"
+    },
+    {
+      "ci_hi": 0.5790414131848085,
+      "ci_lo": 0.5638850995044536,
+      "mean_efficiency": 0.571443820944295,
+      "mean_score": 21.620612455864965,
+      "strategy": "greedy"
+    },
+    {
+      "ci_hi": 0.43339249483554343,
+      "ci_lo": 0.4130136473397137,
+      "mean_efficiency": 0.42327166250522685,
+      "mean_score": 16.20762233449664,
+      "strategy": "fixed_time"
+    },
+    {
+      "ci_hi": 0.3417084029464782,
+      "ci_lo": 0.3253416735374993,
+      "mean_efficiency": 0.3335237349169154,
+      "mean_score": 12.815899792978584,
+      "strategy": "random"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "config": {
+    "days": 7,
+    "n_boot": 10000,
+    "n_perm": 20000,
+    "n_scenarios": 200,
+    "seed": 20260101,
+    "sigma": 0.45,
+    "slots_per_day": 24
+  },
+  "dataset_checksum": "fb5c8ae5361661bc83e186ee7ac933ab679f320098cc80f272d5dd9381ec8741",
+  "git_sha": "n/a",
+  "numpy_version": "2.5.4",
+  "python_version": "3.13.18"
+}
